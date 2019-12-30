@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zheng.iclass.dao.LeaveDao">
+    <resultMap id="leave" type="Leave">
+        <id property="id" column="id" javaType="Integer"/>
+        <result property="cause" column="cause" javaType="String"/>
+        <result property="createSid" column="create_sid" javaType="String"/>
+        <result property="createTime" column="create_time" javaType="java.util.Date"/>
+        <result property="nextDealTid" column="next_deal_tid" javaType="String"/>
+        <result property="item" column="item" javaType="String"/>
+        <result property="status" column="status" javaType="String"/>
+    </resultMap>
+    <insert id="insert" parameterType="Leave">
+        insert into leave(id,cause,create_sid,create_time,next_deal_tid,item,status)
+        values (#{id},#{cause},#{createSid},#{createTime},#{nextDealTid},#{item},#{status})
+    </insert>
+    <update id="update" parameterType="Integer">
+        update leave set cause=#{cause},create_sid=#{createSid},create_time=#{createTime},next_deal_tid=#{nextDealTid},item=#{item},status=#{status}
+        where id=#{id}
+    </update>
+    <delete id="delete" parameterType="Integer">
+        delete from leave where id=#{id}
+    </delete>
+    <select id="select" parameterType="Integer" resultMap="leave">
+        select * from leave where id=#{id}
+    </select>
+    <select id="selectAll" resultMap="leave">
+        select* from leave
+    </select>
+</mapper>

@@ -4,7 +4,7 @@ Page({
 
   },
 
-  toStudentInfo:function(){
+  to_studentInfo:function(){
     wx.navigateTo({
       url: '../studentInfo/studentInfo',
     })

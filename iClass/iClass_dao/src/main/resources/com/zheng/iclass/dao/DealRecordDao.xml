@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zheng.iclass.dao.DealRecordDao">
+    <resultMap id="deal_record" type="DealRecord">
+        <id property="id" column="id" javaType="Integer"/>
+        <result property="leaveId" column="leave_id" javaType="String"/>
+        <result property="dealId" column="deal_id" javaType="String"/>
+        <result property="dealTime" column="deal_time" javaType="java.util.Date"/>
+        <result property="dealWay" column="deal_way" javaType="String"/>
+        <result property="dealResult" column="deal_result" javaType="String"/>
+        <result property="comment" column="comment" javaType="String"/>
+        <association property="dealer" column="next_deal_tid" javaType="Teacher">
+            <result property="username" column="tname" javaType="String"/>
+            <result property="tel" column="ttel" javaType="String"/>
+        </association>
+    </resultMap>
+
+    <insert id="insert" parameterType="DealRecord">
+        insert into deal_record(id,deal_id,deal_time,deal_way,deal_result,comment)
+        values(#{id},#{dealId},#{dealTime},#{dealWay},#{dealResult},#{comment})
+    </insert>
+    <select id="selectByStudent" resultMap="deal_record">
+        select d.*,e.username tname,e.tel ttel from deal_record d
+        left join teacher e on d.deal_id = e.tid
+        where d.leave_id=#{tid} order by d.deal_time;
+    </select>
+</mapper>

@@ -3,7 +3,7 @@ Page({
   data: {
     phonenumber: '',    //账号；
     password: '',       //密码；
-    bgimg: 'https://lg-52bo0bvm-1253678560.cos.ap-shanghai.myqcloud.com/0.jpg',
+    bgimg: '/images/0.png',
     numShow: 'none',
     psdShow: 'none',
     modelInnerHtml: '123',
@@ -36,7 +36,7 @@ Page({
       index: e.detail.value,
       inputValue: '',
       //更新头像，后面要换成我们自己的图床地址。 by小锐！
-      bgimg: 'https://lg-52bo0bvm-1253678560.cos.ap-shanghai.myqcloud.com/' + e.detail.value + '.jpg'
+      bgimg: '/images/' + e.detail.value + '.png'
     })
   },
 

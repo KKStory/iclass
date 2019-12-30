@@ -1,5 +1,5 @@
 <view class="container">
-  <image src="https://lg-52bo0bvm-1253678560.cos.ap-shanghai.myqcloud.com/1.jpg" class="headImg" bindtap="to_studentInfo"></image>
+  <image src="/images/1.png" class="headImg" bindtap="to_studentInfo"></image>
   <view class="menu">
     <view class="SignIn" bindtap="toSignIn">
       <text>签到</text>

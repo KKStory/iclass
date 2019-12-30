@@ -1,0 +1,29 @@
+page{
+  height: 100%
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url('http://106.52.28.120/wp-content/uploads/2019/11/translate.jpg');
+  background-size: cover;
+}
+.ph {
+  color: #eee;
+}
+textarea{
+  height: 400rpx;
+  width: 650rpx;
+  border: 5rpx solid white;
+  margin: auto;
+  color: white;
+}
+button{
+  height: 80rpx;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 30rpx;
+  color: white;
+  background-color: rgb(50, 183, 192);
+}

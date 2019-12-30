@@ -1,0 +1,8 @@
+<view class="container">
+  <textarea bindinput="bindMesInput" placeholder="请输入请假事由！" placeholder-class="ph" value='{{inputValue}}' ></textarea>
+  <button bindtap="submit">提交</button>
+</view>
+
+<modal title="提示" hidden="{{modalHidden}}" no-cancel bindconfirm="modalChange">
+  <view class="newAlert"> {{modelInnerHtml}} </view>
+</modal>

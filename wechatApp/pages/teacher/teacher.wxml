@@ -1,0 +1,4 @@
+<view class="container">
+  <image src="https://lg-52bo0bvm-1253678560.cos.ap-shanghai.myqcloud.com/2.jpg" class="headImg" bindtap="to_teacherInfo"></image>
+  <view class="menu"></view>
+</view>

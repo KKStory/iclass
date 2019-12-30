@@ -1,0 +1,14 @@
+<view class="container">
+  <image src="https://lg-52bo0bvm-1253678560.cos.ap-shanghai.myqcloud.com/1.jpg" class="headImg" bindtap="to_studentInfo"></image>
+  <view class="menu">
+    <view class="SignIn" bindtap="toSignIn">
+      <text>签到</text>
+    </view>
+    <view class="TakeLeave" bindtap="toTakeLeave">
+      <text>请假</text>
+    </view>
+    <view class="record" bindtap="toRecord">
+      <text>记录</text>
+    </view>
+  </view>
+</view>

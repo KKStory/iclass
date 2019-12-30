@@ -1,0 +1,11 @@
+page{
+  height: 100%
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url('http://106.52.28.120/wp-content/uploads/2019/11/translate.jpg');
+  background-size: cover;
+}

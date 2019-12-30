@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/student/student",
+    "pages/teacher/teacher",
+    "pages/teacherInfo/teacherInfo",
+    "pages/studentInfo/studentInfo",
+    "pages/studentSignIn/studentSignIn",
+    "pages/studentTakeLeave/studentTakeLeave",
+    "pages/studentRecord/studentRecord"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#095079",
+    "navigationBarTitleText": "iclass",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

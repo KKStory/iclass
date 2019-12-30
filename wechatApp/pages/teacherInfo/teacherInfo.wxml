@@ -1,0 +1,8 @@
+<view class="container">
+  <image src="https://lg-52bo0bvm-1253678560.cos.ap-shanghai.myqcloud.com/2.jpg" class="headImg"></image>
+  <view class="Info">
+    <text>学院：计算机学院</text>
+    <text>管理班级：B180315</text>
+    <text>姓名：小锐</text>
+  </view>
+</view>

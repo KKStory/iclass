@@ -11,8 +11,8 @@
 | :---: | :---: |
 
 #### 效果演示
-![iclass](/Img/1.jpg)
+![iclass](/Img/1.png)
 ###### 
-![iclass](/Img/2.jpg)
+![iclass](/Img/2.png)
 ###### 
-![iclass](/Img/3.jpg)
+![iclass](/Img/3.png)

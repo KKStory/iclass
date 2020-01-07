@@ -7,4 +7,5 @@
 ### 
 ### Development Team
 
-| [<img src="https://github.com/ixiaorui2018.png?s=64" width="100px;"/><br /><sub><b>小锐</b></sub>](https://github.com/ixiaorui2018)<br/>**前端**   || [<img src="https://github.com/joker53-1.png?s=64" width="100px;"/><br /><sub><b>joker</b></sub>](https://github.com/joker53-1)<br/>**后端**   |
+| [<img src="https://github.com/ixiaorui2018.png?s=64" width="100px;"/><br /><sub><b>小锐</b></sub>](https://github.com/ixiaorui2018)<br />**前端**   | [<img src="https://github.com/joker53-1.png?s=64" width="100px;"/><br /><sub><b>joker</b></sub>](https://github.com/joker53-1)<br />**后端**<br />  |
+| :---: | :---: |

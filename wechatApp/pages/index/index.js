@@ -117,9 +117,9 @@ Page({
       //学生端,index==1,教师端,index==2.  by小锐！
       // var urlStr = 'http://localhost:8080/login/student';
       if(index==1){
-        var urlStr = app.globalData.url + 'login/student';
+        var urlStr = app.globalData.url + 'login/student' + '?' ;
       }else if(index==2){
-        var urlStr = app.globalData.url + 'login/teacher';
+        var urlStr = app.globalData.url + 'login/teacher' + '?' ;
       }
 
       //交互数据这一块！

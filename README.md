@@ -10,9 +10,6 @@
 | [<img src="https://github.com/ixiaorui2018.png?s=64" width="100px;"/><br /><sub><b>小锐</b></sub>](https://github.com/ixiaorui2018)<br />**前端**   | [<img src="https://github.com/joker53-1.png?s=64" width="100px;"/><br /><sub><b>joker</b></sub>](https://github.com/joker53-1)<br />**后端**<br />  |
 | :---: | :---: |
 
-#### 效果演示
-![iclass](/Img/1.png)
-###### 
-![iclass](/Img/2.png)
-###### 
-![iclass](/Img/3.png)
+#### 风格演示
+| ![iclass](/Img/1.png) | ![iclass](/Img/2.png) | ![iclass](/Img/3.png) |
+| :---: | :---: | :---: |
